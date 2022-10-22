@@ -21,7 +21,7 @@ OpenCore loader for HP workstations Z440/Z640/Z840. Support macOS Big Sur and Mo
 
 **What Works:**
 
-- Everything, except Sleep/Wake (This is a workstation setup. Disable Sleep from macOS System Preference)
+- Everything, except Sleep/Wake (This is a workstation setup. Sleep must be disabled from macOS System Preference.)
 
 
 **EFI Folder**
