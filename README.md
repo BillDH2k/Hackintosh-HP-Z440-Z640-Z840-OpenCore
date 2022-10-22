@@ -21,7 +21,7 @@ OpenCore loader for HP workstations Z440/Z640/Z840. Support macOS Big Sur and Mo
 
 **What Works:**
 
-- Everything, except Sleep/Wake (This is a workstation setup, but should be an easy fix).
+- Everything, except Sleep/Wake (This is a workstation setup. Disable Sleep from macOS System Preference)
 
 
 **EFI Folder**
@@ -52,5 +52,7 @@ OpenCore loader for HP workstations Z440/Z640/Z840. Support macOS Big Sur and Mo
 	- AstekFusion2Family.kext - SAS controller (Z840 only)
 	- AstekFusion2Adapter.kext - SAS controller (Z840 only)
 
-#
+# Others
+
+
 
