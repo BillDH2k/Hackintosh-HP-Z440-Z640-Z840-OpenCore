@@ -11,7 +11,8 @@ OpenCore loader for HP workstations Z440/Z640/Z840. Support macOS Big Sur and Mo
 
 **Installation:**
 
-- Generate SYMBIOS serial #'s unique for your system (iMacPro1,1 or MacPro7,1 supported)
+- Generate new serials unique for your system
+- SYMBIOS iMacPro1,1 or MacPro7,1 supported
 - Choose correct CPU Emulation. Modify config.plist->Root->Kernel->Emulate->Cpuid1Data
 	- For V3 Xeon's: C3060300 00000000 00000000 00000000 (<- default setting)
 	- For V4 Xeon's: D4060300 00000000 00000000 00000000
