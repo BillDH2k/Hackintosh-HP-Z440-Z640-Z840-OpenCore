@@ -2,7 +2,7 @@
 
 Support macOS Big Sur and Monterey.
 
-**Supported Hardware**
+**Supported Hardware:**
 
 - HP Z440/Z640/Z840 (BIOS V2.59, latest)
 - CPUs: E5-1600/2600 V3/V4 Xeon CPUs (Hanswell/Broadwell)
@@ -43,9 +43,9 @@ Support macOS Big Sur and Monterey.
 	- AppleMCEReporterDisabler.kext
 	- VirtualSMC.kext
 	- AppleALC.kext - On-board Audio (Layout ID 11)
-	- IntelMausi.kext - LAN port #1 driver (Intel i218LM)
+	- IntelMausi.kext - LAN port driver (Intel i218LM, all models)
 	- i210LanInject.kext - LAN port #2 injector (Intel i210AT, Z840 only) 
-	- RTCMemoryFixup.kext - For fix RTC memory
+	- RTCMemoryFixup.kext - Fix RTC memory
 	- XHCI-unsupported.kext - C612 USB driver support
 	- USBMap-Zx40.kext - Custom USB port maps
 	- NVMeFix.kext - NvMe SSD on PCI-E adapter
