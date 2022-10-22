@@ -54,7 +54,7 @@ OpenCore 0.8.5 loader. Support macOS Big Sur and Monterey.
 
 **Others:**
 
-- Custom USB port mapping: All external USB orts are properly mapped and enabled, except one USB2 personality for one of the USB3 connectors (1/4) on the back panel. This is due to the 15 ports limitaiton, so one must be freed in order to enable the internal USB2 conenctor (1 of 2). Enable the internal USB2 connector would be a more useful setting, e.g. when it is required for Wifi addon card.
+- Custom USB port mapping: All external USB ports are properly mapped and enabled, except one USB2 personality for one of the USB3 connectors (1/4) on the back panel. This is due to the 15 ports limitaiton, so one must be freed in order to enable the internal USB2 conenctor (1 of 2). Enable the internal USB2 connector would be a more useful setting, e.g. when it is required for Wifi addon card.
 - RTC exclude range: currently 80-E1. It works on my setup, but could be narrowed down further, based on your hardware.
 
 
