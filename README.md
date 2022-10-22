@@ -23,6 +23,7 @@ OpenCore 0.8.5 loader. Support macOS Big Sur and Monterey.
 
 - Everything, except Sleep/Wake (This is a workstation setup. Sleep must be disabled from macOS System Preference.)
 
+#
 
 **EFI Folder**
 
