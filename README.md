@@ -47,12 +47,14 @@ OpenCore loader for HP workstations Z440/Z640/Z840. Support macOS Big Sur and Mo
 	- i210LanInject.kext - LAN port #2 injector (Intel i210AT, Z840 only) 
 	- RTCMemoryFixup.kext - For fix RTC memory
 	- XHCI-unsupported.kext - C612 USB driver support
-	- USBMap-Zx40.kext - Custom USB2/3 port maps
+	- USBMap-Zx40.kext - Custom USB port maps
 	- NVMeFix.kext - NvMe SSD on PCI-E adapter
 	- AstekFusion2Family.kext - SAS controller (Z840 only)
 	- AstekFusion2Adapter.kext - SAS controller (Z840 only)
 
-# Others
+**Others:**
+
+Custom USB port mapping - All external USB orts are properly mapped and enabled, except one USB2 personality for one of the USB3 connectors (1/4) on the back panel. This is due to the 15 ports limitaiton, so one must be freed in order to enable the internal USB2 conenctor (1 of 2). Enable the internal USB2 connector would be a more useful setting, e.g. when it is required for Wifi addon card.
 
 
 
