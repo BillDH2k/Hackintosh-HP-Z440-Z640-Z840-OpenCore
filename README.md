@@ -21,7 +21,7 @@ OpenCore 0.8.5 loader. Support macOS Big Sur and Monterey.
 
 **What Works:**
 
-- Everything, except Sleep/Wake (This is a workstation setup. Sleep must be disabled from macOS System Preference.)
+- Everything, except Sleep/Wake for Z840 with dual CPUs.
 
 #
 
