@@ -1,6 +1,6 @@
 # Hackintosh-HP-Z440-Z640-Z840-OpenCore
 
-OpenCore 0.8.5 loader. Support macOS Big Sur and Monterey.
+OpenCore 0.8.5 loader. Support macOS Big Sur, Monterey and Ventura.
 
 **Supported Hardware:**
 
