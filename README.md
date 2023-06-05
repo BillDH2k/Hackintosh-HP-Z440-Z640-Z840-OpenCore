@@ -1,6 +1,6 @@
 # Hackintosh-HP-Z440-Z640-Z840-OpenCore
 
-OpenCore 0.8.5 loader. Support macOS Big Sur and Monterey. Ventura also works, but for Z840 the 2nd LAN port (I210-AT) must be disabled for now (util compatible driver issue is resolved).
+OpenCore 0.8.5 loader. Support macOS Big Sur and Monterey. Ventura also works, but for Z840 the 2nd LAN port (I210-AT) must be disabled for now (until compatible driver issue is resolved).
 
 **Supported Hardware:**
 
