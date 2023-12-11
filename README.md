@@ -1,6 +1,8 @@
 # Hackintosh-HP-Z440-Z640-Z840-OpenCore
 
-OpenCore 0.9.3 loader. Support macOS Big Sur and Monterey. Ventura also works, but for Z840 the 2nd LAN port (I210-AT) must be disabled for now (until compatible driver issue is resolved).
+(Update Dec 11, 2023) - Update OC to 097. Tested Sonoma support (14.2).
+
+OpenCore loader for HP workstaiton Zx40 series. Support macOS Big Sur - Sonama (14.2 tested). For Ventura and above, Z840 must disable the 2nd LAN port (I210-AT) for now (until compatible driver issue is resolved).
 
 **Supported Hardware:**
 
@@ -11,8 +13,8 @@ OpenCore 0.9.3 loader. Support macOS Big Sur and Monterey. Ventura also works, b
 
 **Installation:**
 
-- Generate new serials unique for your system
-- SYMBIOS iMacPro1,1 (MacPro7,1 also supported)
+- Generate a new serial number unique for your system
+- SYMBIOS MacPro7,1 (default) or iMacPro1,1 
 - Choose correct CPU Emulation. Modify config.plist->Root->Kernel->Emulate->Cpuid1Data
 	- For V3 Xeon's: C3060300 00000000 00000000 00000000 (<- default setting)
 	- For V4 Xeon's: D4060300 00000000 00000000 00000000
@@ -27,7 +29,7 @@ OpenCore 0.9.3 loader. Support macOS Big Sur and Monterey. Ventura also works, b
 
 **EFI Folder**
 
-- OpenCore 0.9.2
+- OpenCore 0.9.7
 - Supported SYMBIOS: iMacPro1,1 or MacPro7,1
 
 - ACPI folder:
@@ -47,7 +49,7 @@ OpenCore 0.9.3 loader. Support macOS Big Sur and Monterey. Ventura also works, b
 	- IntelMausi.kext - LAN port driver (Intel i218LM, all models)
 	- i210LanInject.kext - LAN port #2 injector (Intel i210AT, Z840 only) 
 	- RTCMemoryFixup.kext - Fix RTC memory
-	- XHCI-unsupported.kext - C612 USB driver support
+	- XHCI-unsupported.kext - C612 USB3 driver support
 	- USBMap-Zx40.kext - Custom USB port maps
 	- NVMeFix.kext - NvMe SSD on PCI-E adapter
 	- AstekFusion2Family.kext - SAS controller (Z840 only)
