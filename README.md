@@ -6,7 +6,7 @@ OpenCore loader for HP workstaiton Zx40 series. Support macOS Big Sur - Sonama (
 
 **Supported Hardware:**
 
-- HP Z440/Z640/Z840 (BIOS V2.59, latest)
+- HP Z440/Z640/Z840 (**BIOS V2.59 or newer recommended**. Older BIOS may have boot issue.)
 - CPUs: E5-1600/2600 V3/V4 Xeon CPUs (Hanswell/Broadwell)
 - macOS compatible video card
 - Required BIOS Settings: Enable UEFI boot, set SATA/sSATA to AHCI mode.
