@@ -361,13 +361,13 @@
 						<string>USB2 - Front-2</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>port</key>
+						<data>CgAAAA==</data>
 					</dict>
 					<key>HS11</key>
 					<dict>
 						<key>Comment</key>
 						<string>USB2 - Back-Top</string>
-						<key>port 1</key>
-						<data>CgAAAA==</data>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -796,13 +796,13 @@
 						<string>USB2 - Front-2</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>port</key>
+						<data>CgAAAA==</data>
 					</dict>
 					<key>HS11</key>
 					<dict>
 						<key>Comment</key>
 						<string>USB2 - Back-Top</string>
-						<key>port 1</key>
-						<data>CgAAAA==</data>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
