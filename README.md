@@ -1,8 +1,8 @@
 # Hackintosh-HP-Z440-Z640-Z840-OpenCore
 
-(Dec 11, 2023) - Updated OC to 097. Tested Sonoma support (14.2).
+(July 5, 2025) - Updated OC to 1.0.4. Tested Sequoia 15.5.
 
-OpenCore loader for HP workstaiton Zx40 series. Support macOS Big Sur - Sonama (14.2 tested). For Ventura and above, Z840 must disable the 2nd LAN port (I210-AT) for now (until compatible driver issue is resolved).
+OpenCore loader for HP workstaiton Zx40 series. Support macOS Big Sur - Sequoia (15.5 tested). For Ventura and above, Z840 must disable the 2nd LAN port (I210-AT) for now (until compatible driver issue is resolved).
 
 **Supported Hardware:**
 
@@ -29,7 +29,7 @@ OpenCore loader for HP workstaiton Zx40 series. Support macOS Big Sur - Sonama (
 
 **EFI Folder**
 
-- OpenCore 0.9.7
+- OpenCore 1.0.4
 - Supported SYMBIOS: iMacPro1,1 or MacPro7,1
 
 - ACPI folder:
